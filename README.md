@@ -9,6 +9,14 @@ En informática, se usa el término log, historial de log o registro, se refiere
 
 Se Utiliza la libería NLog como base para loggear eventos importantes de una programa 
 
+
+
+Se puede agregar Nlog desde la consola de Nuget con el siguiente comando:
+https://www.nuget.org/packages/NLog/
+
+![abrir la consola nuget](https://docs.aspose.com/download/attachments/9218557/NugetPackageManager.png)
+
+
 ## Diferentes niveles de logs en la librería NLOG
 
 logger.Trace("logeo de mensaje de trace");
