@@ -1,4 +1,4 @@
-# Clase3: Uso Log
+# Clase3: Uso de Log en una aplicación WPF
 ## Logs [según wikipedia]
 
 En informática, se usa el término log, historial de log o registro, se refiere a la grabación secuencial en un archivo o en una base de datos de todos los acontecimientos (eventos o acciones) que afectan a un proceso particular (aplicación, actividad de una red informática, etc.). De esta forma constituye una evidencia del comportamiento del sistema.
