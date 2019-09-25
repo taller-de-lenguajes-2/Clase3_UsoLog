@@ -5,22 +5,26 @@ En informática, se usa el término log, historial de log o registro, se refiere
 
 [referencia de wikipedia](https://es.wikipedia.org/wiki/Log_(inform%C3%A1tica))
 
-## Ejemplo de uso de log en proyectos Wpf.
+## Usando la librería de log en proyectos Wpf.
 
-Se Utiliza la libería NLog como base para loggear eventos importantes de una programa 
+Podemos Utiliza la libería NLog como base para loggear eventos importantes de una aplicación de .Net 
 
-## Agregar La librería Nlog a nuestro proyecto 
+### Agregar La librería Nlog a nuestro proyecto 
 
 Esto se puede hacer desde la consola de Nlog, para ello vamos a seguir los pasos
 1. Ir a la Consola nuget 
 
 ![abrir la consola nuget](https://github.com/Spktro/Clase3_UsoLog/blob/master/NugetPackageManager.png)
 
-2. ejecutar el comando paara instalar la Nlog: Install-Package NLog -Version 4.6.7 
+2. ejecutar el comando para instalar la Nlog: Install-Package NLog -Version 4.6.7 
+
+Aquí pueden ver la versión más reciente de Nlog, el historial de versiones por si necesitan instalar una versión anterior y demás datos relacionados a NLOG: (https://www.nuget.org/packages/NLog/)
 
 
-Aquí puedes ver la versión y demás datos relacionados a NLOG: (https://www.nuget.org/packages/NLog/)
-## Diferentes niveles de logs en la librería NLOG
+### Debemos agregar la referencia 
+using NLog;
+
+### Diferentes niveles de logs en la librería NLOG
 
 logger.Trace("logeo de mensaje de trace");
 
